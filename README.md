@@ -1,4 +1,4 @@
-This is a very simple form from ex51 of Learn Python the Hardway.
+This is a very simple form from ex51 of Learn Python the Hard Way [Zed Shaw]
 
 My contributions to the flask/python/html/css setup:
 -I added a simple css file to experiment with how HTML calls on .css files with the <link> tag.
