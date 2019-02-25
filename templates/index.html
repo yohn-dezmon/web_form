@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Gothons Of Planet Percal #25</title>
+      <link rel="stylesheet" type="text/css" href="static/style.css">
+    </head>
+
+<body>
+  <p>Just showing a very basic example of CSS styling
+  With the flask framework, the folder containing the
+  .css files must be called "static" [I think]</p>
+
+{% if greeting %}
+    I just wanted to say
+    <em style="color: orange; font-size: 7em;">{{ greeting }}</em>.
+
+{% else %}
+    <em>Hello</em>, world!
+{% endif %}
+
+<form action="/hello" method="GET">
+  <input type="submit">
+</form>
+
+
+</body>
+</html>
